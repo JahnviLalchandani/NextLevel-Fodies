@@ -1,0 +1,19 @@
+<div class="container">
+    <div>
+        <img [src]="meal?.img" alt="" class="img">
+    </div>
+    <div class="about">
+        <h1>{{meal?.title}}</h1>
+        <h6>{{meal?.name}}</h6>
+        <h5>{{meal?.about}}</h5>
+    </div>
+
+    <div class="recipe">
+        <p>{{meal?.recipe?.step1}}</p>
+        <p>{{meal?.recipe?.step2}}</p>
+        <p>{{meal?.recipe?.step3}}</p>
+        <p>{{meal?.recipe?.step4}}</p>
+        <p>{{meal?.recipe?.step5}}</p>
+    </div>
+
+</div>

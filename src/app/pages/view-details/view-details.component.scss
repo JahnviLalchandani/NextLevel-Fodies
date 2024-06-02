@@ -1,0 +1,46 @@
+.img
+{
+    height: 280px;
+    width: 370px;
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    border-radius: 10px;
+}
+.about
+{
+    height:400px;
+    width: 600px;
+    position: absolute;
+    z-index: 1;
+    top:180px;
+    left: 550px;
+
+    h1{
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    h6{
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        top: 10px;
+    }
+    h5{
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        top: 10px;
+    }
+
+}
+
+.recipe
+{
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    z-index: 1;
+    top: 450px;
+    left: 300px;
+   border-radius: 10px;
+    background-color: gray;
+}

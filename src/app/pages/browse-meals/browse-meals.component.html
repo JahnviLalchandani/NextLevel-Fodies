@@ -1,0 +1,12 @@
+<div class="meals">
+    <h2>Delicious meal, Create by you</h2>
+    <h5>Choose your favourite recipe and cook it yourself,it is easy and fun!</h5>
+    <button type="button" class="btn btn-primary" (click)="goTo()">Share your recipe</button>
+   <div class="box">
+    <div class="row">
+        <div class="col-4 mb-3" *ngFor="let meal of meals; let i=index">
+            <app-browse-items [meal]="meal"></app-browse-items>
+        </div>
+    </div>
+   </div>
+   </div>

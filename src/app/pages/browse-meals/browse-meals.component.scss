@@ -1,0 +1,33 @@
+.meals
+{
+    height: 1000px;
+    width: 100%;
+
+    h2
+    {
+        position: relative;
+        z-index: 1;
+        top: 150px;
+        color: white;
+        left: 70px;
+    }
+
+    h5
+    {
+        position: relative;
+        z-index: 1;
+        top: 160px;
+        left: 70px;
+        color: white;
+    }
+    button{
+
+        position: relative;
+        z-index: 1;
+        top: 170px;
+        left: 70px;
+        background-color: chocolate;
+        border: 2px solid chocolate;
+    }
+  
+}

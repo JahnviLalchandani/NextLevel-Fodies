@@ -1,0 +1,73 @@
+<div class="box">
+    <h1>Share your Recipe with us in 5 easy steps</h1>
+   <form action="" [formGroup]="mealForm">
+         <div class="table">
+            <table>
+                <tr>
+                    <th colspan="2">
+                        Share your taste with us
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="title">Name of the Recipe</label>
+                    </td>
+                    <td>
+                        <input type="text" name="title" placeholder="Name of the Recipe" formControlName="title">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="img">Add Image</label>
+                    </td>
+                    <td>
+                        <input type="text" name="img" placeholder="Image Url" formControlName="img">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name">Name of the Creator</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" placeholder="Name of the Creator" formControlName="name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="about">Add Description</label>
+                    </td>
+                    <td>
+                        <input type="text" name="about" placeholder="Description" formControlName="about">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Step 1</td>
+                    <td><input type="text" placeholder="Step 1"></td>
+                </tr>
+                <tr>
+                    <td>Step 2</td>
+                    <td><input type="text" placeholder="Step 2"></td>
+                </tr>
+                <tr>
+                    <td>Step 3</td>
+                    <td><input type="text" placeholder="Step 3"></td>
+                </tr>
+                <tr>
+                    <td>Step 4</td>
+                    <td><input type="text" placeholder="Step 4"></td>
+                </tr>
+                <tr>
+                    <td>Step 5</td>
+                    <td><input type="text" placeholder="Step 5"></td>
+                </tr>
+            </table>
+        </div>
+       <div class="btn">
+        <button type="button" class="btn btn-danger mb-3 me-3 ms-5" (click)="share()">Share my Recipe</button>
+        <button type="button" class="btn btn-danger mb-3" (click)="goTo()">Cancel</button>
+       </div>
+   </form>
+</div>

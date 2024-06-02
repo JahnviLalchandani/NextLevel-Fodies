@@ -1,0 +1,18 @@
+<div class="box">
+    <div class="container ">
+        <div class="row">
+            <div class="col ">
+            <div class="card text-white bg-dark mb-3" style="width: 20rem; height: 27rem;" >
+                <img [src]="meal.img" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">{{meal.title}}</h4>
+                  <h6 class="card-text">{{meal.name}}</h6>
+                  <p class="card-text">{{meal.about}}</p>
+                  <button class="btn btn-success" (click)="goTo(meal.id)"> View Details</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
